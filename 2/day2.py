@@ -4,7 +4,7 @@ N_RED: int = 12
 N_GREEN: int = 13
 N_BLUE: int = 14
 
-with open("in.txt", "r") as f:
+with open("in2.txt", "r") as f:
     game_sum: int = 0
     for game_number, line in enumerate(f, start=1):
         possible: bool = True
